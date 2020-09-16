@@ -8,9 +8,10 @@ När det är dags för dig att börja söka LIA-plats och senare jobb så är et
 Lägg upp ett CV på landningssidan, dvs githubnamn.github.io, på ert github konto.
 Den skall innehålla:
 
-En kort presentation
-Bild
-Lista mer arbetslivserfarenhet
-Länkar till Github-profil, LinkedIn, mail-to och annat ni känner är viktigt
+* En kort presentation
+* Bild
+* Lista mer arbetslivserfarenhet
+* Länkar till Github-profil, LinkedIn, mail-to och annat ni känner är viktigt
+
 Uppgiften innehåller även en reflekterande del där ni skall förklara er kod och de webbteknologier ni har använt i uppgiften.
 När ni är klara så skall ni skicka in ett textdokument som innehåller länkar till githubpages, ert repo samt den reflekterande delen. 
