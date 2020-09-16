@@ -28,6 +28,7 @@ aside img {
     position: absolute;
     top: 225px;
     left: 100px;
+    width: 150px;
     border-radius: 20%;
 }
 aside h2 {
@@ -46,18 +47,27 @@ aside p span{
     top: 470px;
     left: 0px;
 }
-main div{
-    margin-top:200px;
-}
-main div h2{
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-}
-main div ul li {
+main {
     margin-top: 50px;
     text-align: center;
     list-style: none;
     font-family: 'Indie Flower', cursive;
+}
+main div{
+    justify-content: right;
+    margin-top:75px;
+}
+main div h2{
+    margin-left: 110px;
+}
+
+main div span{
+    display: block;
+    unicode-bidi: embed;
+    white-space: pre;
+    text-align: left;
+    
+    
 
 }
 
@@ -74,7 +84,4 @@ main div ul li {
 
 
 
-
-aside img{
-    width: 150px;
-}
+    
