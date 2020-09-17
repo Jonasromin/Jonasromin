@@ -34,11 +34,11 @@ aside div.presentation{
     /*background-color: blue;*/
     width: 300px;
     margin-left: 5px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 aside div img{
     
-    margin-left: 60px;
+    margin-left: 30px;
     width: 150px;
     border-radius: 20%;
     border: 2px black solid;
@@ -52,7 +52,16 @@ aside ul{
     font-family: 'Indie Flower', cursive;
     font-size: 14pt;
     list-style: none;
-    padding-bottom: 20px;
+}
+main div.img{
+    width: auto;
+    margin:0 auto;
+    margin-top:-425px;
+}
+main div.img img{
+    width: 600px;
+    margin:0 auto;
+    border: 2px white solid;
 }
 
 main div {
@@ -65,7 +74,7 @@ main div {
 main div.workExperience{
     /*background-color: red;*/
     width: 500px;
-    margin-top: -490px;
+    margin-top: 100px;
 }
 main div ul{
     text-align: left;
