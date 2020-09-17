@@ -1,8 +1,6 @@
 body{
-    /*color: blanchedalmond;*/
-    /*background-color:#222b17;*/
-    margin:0;
-    padding:0;
+    color: blanchedalmond;
+    background-color:#222b17;
 }
 header h1{
     text-align: center;
@@ -11,12 +9,13 @@ header h1{
     margin-top: 5px;
 }
 nav ul{
+    font-size: 20pt;
     display:flex;
     margin:0 auto;
     list-style: none;
     flex-wrap: wrap;
     font-family: 'Indie Flower', cursive;
-    width: 700px;
+    width: 900px;
     height: 50px;
 }
 nav ul li{
@@ -24,8 +23,15 @@ nav ul li{
     flex:1;
     text-align: center;
 }
+nav a.link{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+nav a.link:hover{
+    color: yellow;
+}
 aside div.presentation{
-    background-color: blue;
+    /*background-color: blue;*/
     width: 300px;
     margin-left: 5px;
     margin-top: 50px;
@@ -49,37 +55,57 @@ aside ul{
     padding-bottom: 20px;
 }
 
-main {
+main div {
     margin-top: 50px;
+    margin-left: 400px;
     text-align: center;
-    list-style: none;
     font-family: 'Indie Flower', cursive;
-    margin-bottom: 150px;
+    
 }
 main div.workExperience{
-    background-color: red;
+    /*background-color: red;*/
     width: 500px;
-    margin-left: 415px;
     margin-top: -490px;
-    text-align: center;
 }
 main div ul{
     text-align: left;
 }
-
+main div.education{
+    /*background-color: green;*/
+    width: 500px;
+}
+main div.misc{
+    /*background-color: grey;*/
+    width: 500px;
+    margin-bottom: 150px;
+}
+main div.misc ul li{
+    text-align: center;
+    list-style: none;
+}
 footer div.contact{
-    
-    width: 300px;
+    margin-left: 450px;
+    width: 400px;
     height: 300px;
-    background-color: yellow;
+    /*background-color: yellow;*/
+}
+footer div.contact h2{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
 }
 footer div.contact ul li{
-    margin-top: 15px;
     list-style: none;
     font-family: 'Indie Flower', cursive;
     font-size: 18pt;
+    position: relative;
 }
-
+footer a.link{
+    color: blanchedalmond;
+    text-decoration:none;
+}
+footer a.link:hover{
+    color: yellow;
+}
 
 
 
