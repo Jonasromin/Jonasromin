@@ -1,3 +1,4 @@
+/*-------------Body--------------*/
 body{
     color: blanchedalmond;
     background-color:#222b17;
@@ -8,6 +9,8 @@ header h1{
     font-family: 'Indie Flower', cursive;
     margin-top: 5px;
 }
+/*-----------------------------*/
+/*-----------Nav-------------*/
 nav ul{
     font-size: 20pt;
     display:flex;
@@ -30,6 +33,8 @@ nav a.link{
 nav a.link:hover{
     color: yellow;
 }
+/*-----------------------------*/
+/*-------------Aside-----------*/
 aside div.presentation{
     /*background-color: blue;*/
     display: flex;
@@ -56,6 +61,8 @@ aside ul{
     font-size: 14pt;
     list-style: none;
 }
+/*------------------------------*/
+/*------------Main-------------*/
 main div.img{
     display:flex;
     flex-wrap: wrap;
@@ -100,6 +107,8 @@ main div.misc ul li{
     text-align: center;
     list-style: none;
 }
+/*---------------------------*/
+/*------------Footer---------*/
 footer div.contact{
     margin-left: 450px;
     width: 500px;
@@ -136,6 +145,7 @@ footer .returnLink{
 footer .returnLink:hover{
     color: yellow;
 }
+/*------------------------*/
 
 
 
