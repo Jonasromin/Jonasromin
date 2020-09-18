@@ -1,3 +1,5 @@
+
+@media(min-width:768px){
 /*-------------Body--------------*/
 body{
     color: blanchedalmond;
@@ -22,7 +24,6 @@ nav ul{
     height: 50px;
 }
 nav ul li{
-    border: 2px black solid;
     flex:1;
     text-align: center;
 }
@@ -144,6 +145,7 @@ footer .returnLink{
 }
 footer .returnLink:hover{
     color: yellow;
+}
 }
 /*------------------------*/
 
