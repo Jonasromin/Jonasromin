@@ -1,0 +1,165 @@
+
+@media(min-width:768px){
+/*-------------Body--------------*/
+body{
+    color: blanchedalmond;
+    background-color:#222b17;
+}
+header h1{
+    text-align: center;
+    font-size: 56pt;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 5px;
+}
+/*-----------------------------*/
+/*-----------Nav-------------*/
+nav ul{
+    font-size: 20pt;
+    display:flex;
+    margin:0 auto;
+    list-style: none;
+    flex-wrap: wrap;
+    font-family: 'Indie Flower', cursive;
+    width: 900px;
+    height: 50px;
+}
+nav ul li{
+    flex:1;
+    text-align: center;
+}
+nav a.link{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+nav a.link:hover{
+    color: yellow;
+}
+/*-----------------------------*/
+/*-------------Aside-----------*/
+aside div.presentation{
+    /*background-color: blue;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-left: 5px;
+    margin-top: 70px;
+}
+aside div img{
+    
+    margin-left: 30px;
+    width: 150px;
+    border-radius: 20%;
+    border: 2px blanchedalmond solid;
+}
+aside h2 {
+    margin-left: 35px;
+    font-family: 'Indie Flower', cursive;
+}
+aside ul{
+    
+    font-family: 'Indie Flower', cursive;
+    font-size: 14pt;
+    list-style: none;
+}
+/*------------------------------*/
+/*------------Main-------------*/
+main div.img{
+    display:flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin-left: 150px;
+    margin-top:-450px;
+}
+main div.img img{
+    width: 600px;
+    margin:0 auto;
+    border: 2px white solid;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 400px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    
+}
+main div.workExperience{
+    /*background-color: red;*/
+    width: 500px;
+    margin-top: 100px;
+}
+main div ul{
+    text-align: left;
+}
+main div.education{
+    /*background-color: green;*/
+    width: 500px;
+}
+main div.misc{
+    /*background-color: grey;*/
+    width: 500px;
+    margin-bottom: 70px;
+}
+main div.misc ul li{
+    text-align: center;
+    list-style: none;
+}
+/*---------------------------*/
+/*------------Footer---------*/
+footer div.contact{
+    margin-left: 450px;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    /*background-color: yellow;*/
+}
+footer div.contact h2{
+    font-family: 'Indie Flower', cursive;
+    margin-left: 170px;
+}
+footer div.contact ul li{
+    list-style: none;
+    font-family: 'Indie Flower', cursive;
+    font-size: 18pt;
+    position: relative;
+}
+footer a.link{
+    color: blanchedalmond;
+    text-decoration:none;
+}
+footer a.link:hover{
+    color: yellow;
+}
+footer .returnLink{
+    font-family: 'Indie Flower', cursive;
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 18pt;
+    position: fixed;
+    top:510px;
+    left:600px;
+}
+footer .returnLink:hover{
+    color: yellow;
+}
+}
+/*------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
