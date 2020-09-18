@@ -1,5 +1,4 @@
 
-@media(min-width:768px){
 /*-------------Body--------------*/
 body{
     color: blanchedalmond;
@@ -145,7 +144,6 @@ footer .returnLink{
 }
 footer .returnLink:hover{
     color: yellow;
-}
 }
 /*------------------------*/
 
